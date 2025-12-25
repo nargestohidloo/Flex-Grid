@@ -1,0 +1,32 @@
+* , *::before , *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 100%;
+    direction: ltr;
+        background-color: rgba(246, 144, 195, 0.195);
+
+}
+@font-face {
+    font-family: narges;
+    src: url(../font/Luckiest_Guy/LuckiestGuy-Regular.ttf);
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    &:visited{
+        color: inherit;
+    }
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
